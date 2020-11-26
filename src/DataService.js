@@ -6,7 +6,7 @@ const DataService = () => {
 
   useEffect(() => {
     axios
-      .get("https://www.googleapis.com/youtube/v3/videos&api_key=AIzaSyDjokEZzqF2e8a0n4Jcla0wRyUYqCvMFyU")
+      .get("https://www.googleapis.com/youtube/v3/videos&api_key="")
       .then((result) => getData(JSON.stringify(result.data)));
   }, []);
 
