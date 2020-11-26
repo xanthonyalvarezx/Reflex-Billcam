@@ -1,0 +1,29 @@
+Components-
+1.videos
+2.contact form
+3.merch
+4.bio.
+
+
+videos-
+• input for new videos
+• cards for videos with descriptions
+• way to add description to videos
+
+Contact-
+• formspree form for newsletter
+
+merch-
+• photo links to a teespring 
+
+bio-
+• card about why this site was started
+
+
+header -
+• logo from youtube
+• name
+
+
+Nav-
+nav bar to route the different pages
