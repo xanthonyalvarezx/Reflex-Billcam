@@ -1,5 +1,9 @@
 const Bio = () => {
-  return <p>Bio</p>;
+  return (
+    <main>
+      <p>Bio</p>
+    </main>
+  );
 };
 
 export default Bio;

@@ -1,1 +1,17 @@
+main {
+  display: flex;
+}
 
+#reflex {
+  border-radius: 30%;
+  box-shadow: 5px 5px 10px 15px;
+  height: 25vw;
+}
+
+#logoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 40vw;
+}

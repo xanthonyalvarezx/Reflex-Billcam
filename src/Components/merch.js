@@ -1,5 +1,9 @@
 const Merch = () => {
-  return <p>Merch</p>;
+  return (
+    <main>
+      <p>merch</p>
+    </main>
+  );
 };
 
 export default Merch;

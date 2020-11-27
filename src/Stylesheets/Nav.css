@@ -1,0 +1,20 @@
+#navLinks {
+  display: flex;
+  color: white;
+  background-color: rgb(121, 16, 170);
+  height: 5vw;
+}
+li {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.linkList {
+  display: flex;
+  list-style-type: none;
+
+  width: 100vw;
+  justify-content: space-evenly;
+  align-items: center;
+}

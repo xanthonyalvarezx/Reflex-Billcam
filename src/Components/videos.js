@@ -1,11 +1,9 @@
-import key from "../key";
 import DataService from "../DataService";
 const Videos = () => {
   return (
-    <>
-      {" "}
-      <DataService /> <p>Videos</p>
-    </>
+    <main>
+      <p>videos</p>
+    </main>
   );
 };
 
