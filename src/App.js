@@ -5,7 +5,7 @@ import Nav from "./Components/nav";
 import ContactForm from "./Components/contactForm";
 import Bio from "./Components/bio";
 import Home from "./Components/HomePage";
-import Reflex from "./reflex.jpg";
+
 import { Switch, Route } from "react-router-dom";
 import "./App.css";
 
