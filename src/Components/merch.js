@@ -8,13 +8,13 @@ const Merch = () => {
       <div id="merchListDiv">
         <ul id="merchList">
           <li>
-            <a href="https://teespring.com/stores/reflex-shop-2" target="_blank">
+            <a href="https://teespring.com/stores/reflex-shop-2" target="_blank" rel="noreferrer">
               {" "}
               <img className="merchPhoto" src={OGTee} alt="reflex billcam logo tee-shirt" />
             </a>
           </li>
           <li>
-            <a href="https://teespring.com/stores/reflex-shop-2" target="_blank">
+            <a href="https://teespring.com/stores/reflex-shop-2" target="_blank" rel="noreferrer">
               <img className="merchPhoto" src={OGhoodie} alt="reflex billcam logo hooded sweatshirt" />
             </a>
           </li>
