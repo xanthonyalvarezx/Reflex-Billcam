@@ -1,6 +1,4 @@
-import { NavLink } from "react-router-dom";
-import { Navbar, Form, FormControl } from "react-bootstrap";
-import "../Stylesheets/Nav.css";
+import { NavLink, Link } from "react-router-dom";
 
 const Nav = () => {
   return (

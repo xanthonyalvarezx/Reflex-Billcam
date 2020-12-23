@@ -1,17 +1,85 @@
-main {
-  display: flex;
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+:root {
+  --background: grey;
+  --nav-background: rgba(159, 9, 159, 0.795);
+  --shadow: 10px 10px 20px 5px;
+  --height: 100vw;
+  --width: 100vw;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Bangers";
 }
 
-#reflex {
-  border-radius: 30%;
-  box-shadow: 5px 5px 10px 15px;
-  height: 25vw;
+.App {
+  background-color: var(--background);
+  height: 200vw;
+  width: var(--width);
 }
 
 #logoDiv {
   display: flex;
+
+  justify-content: center;
+  align-items: flex-start;
+  height: var(--height);
+}
+
+#logo {
+  box-shadow: var(--shadow);
+}
+
+#navLinks {
+  width: var(--width);
+}
+
+.linkList {
+  display: flex;
+  background-color: var(--nav-background);
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+#videoListWrapper {
+  display: flex;
   justify-content: center;
   align-items: center;
+}
 
-  height: 40vw;
+#videoList {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 310px 250px;
+  grid-template-rows: auto auto;
+  width: var(--width);
+
+  width: fit-content;
+}
+li {
+  width: fit-content;
+}
+iframe {
+  width: 300px;
+}
+
+#merchListDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(246, 246, 246);
+  width: var(--width);
+}
+
+#merchList {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  background-color: rgb(246, 246, 246);
+
+  width: fit-content;
+}
+.merchPhoto {
+  width: 300px;
+  margin: 25px;
 }
